@@ -115,13 +115,7 @@
                             <constraint firstItem="GRy-vo-IdA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xOZ-5u-5fz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Lottery JackPot" id="R4n-oj-1cg">
-                        <barButtonItem key="rightBarButtonItem" title="Spin" id="5wT-mp-Krm">
-                            <connections>
-                                <action selector="spinWheel:" destination="BYZ-38-t0r" id="o8o-rQ-1KA"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Lottery JackPot" id="R4n-oj-1cg"/>
                     <connections>
                         <outlet property="betPickerView" destination="ka7-gF-p8U" id="8H5-cb-dyg"/>
                         <outlet property="bettingTableView" destination="vmy-fu-HFJ" id="SoN-ul-rkG"/>
