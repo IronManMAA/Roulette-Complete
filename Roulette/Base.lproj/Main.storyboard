@@ -91,7 +91,7 @@
                                     <color key="titleColor" red="0.99175801699999999" green="0.97090538559999995" blue="0.93712924990000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="placeBet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLF-4o-4vS"/>
+                                    <action selector="checkWinningNumbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Al-5r-70W"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -68,9 +68,9 @@
 				DF0A018C1DEC94A900B8AB74 /* Bet.h */,
 				DF0A018D1DEC94A900B8AB74 /* Bet.m */,
 				DF0A017E1DEC77AA00B8AB74 /* Main.storyboard */,
+				DF0A01861DEC77AA00B8AB74 /* Info.plist */,
 				DF0A01811DEC77AA00B8AB74 /* Assets.xcassets */,
 				DF0A01831DEC77AA00B8AB74 /* LaunchScreen.storyboard */,
-				DF0A01861DEC77AA00B8AB74 /* Info.plist */,
 				DF0A01751DEC77AA00B8AB74 /* Supporting Files */,
 			);
 			path = Roulette;

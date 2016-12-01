@@ -13,6 +13,7 @@
     NSString *_color;
 //    NSUInteger _number;
     NSString *_number;
+    
 }
 
 
@@ -50,11 +51,13 @@
                 rn=[NSString stringWithFormat:@"%i", randomNumber];
                 BOOL contains = [checker containsObject:rn];
                 if (contains) { i=i-1; }
-                else { [checker addObject:rn];}
+                else { [checker addObject:rn];
                 // NSLog(@"random number %@", rn);
-                
+            }
             }
             NSString * stringToDisplay = [checker componentsJoinedByString:@"-"];
+            stringToDisplay = [checker componentsJoinedByString:@"-"];
+            stringToDisplay=[stringToDisplay stringByAppendingString:@"-"];
             _number = stringToDisplay;
 
         
@@ -72,6 +75,30 @@
 
 
 }
+
+- (BOOL)compare:(Bet *)anotherBet
+{
+    BOOL same = NO;
+//    if ([_number == anotherBet.number)
+    if ([_number isEqualToString:anotherBet.number])
+    {
+        same = YES;
+    }
+    
+    return same;
+}
+
+- (NSString *)color
+{
+    return _color;
+}
+
+- (NSString *)number
+{
+    return _number;
+}
+
+
 
 @end
 
