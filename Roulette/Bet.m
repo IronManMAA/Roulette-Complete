@@ -59,6 +59,9 @@
             stringToDisplay = [checker componentsJoinedByString:@"-"];
             stringToDisplay=[stringToDisplay stringByAppendingString:@"-"];
             _number = stringToDisplay;
+            stringToDisplay=[@"-" stringByAppendingString: stringToDisplay];
+            _number = stringToDisplay;
+        
 
         
     }
